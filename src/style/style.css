@@ -21,6 +21,9 @@ html, body {
 .nav__list{
     padding: 20px;
 }
+.nav__list--footer{ 
+    padding-bottom: 20px;
+}
 .nav__item{
     display: inline-block;    
 }
@@ -31,8 +34,20 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.4px;
     line-height: 17px;
+
+}
+.header .nav__link{
     margin-right: 30px;
 }
+.nav__link--footer{
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 14px;	
+    letter-spacing: 0.31px;	
+    line-height: 19px;
+    margin-right: 25px;
+}
+
 .nav__link--border{
     padding-right: 20px;
     border-right: 1px solid #979797;
@@ -50,7 +65,7 @@ html, body {
     color: #000000;
     letter-spacing: 0.22px;
 }
-.nav__list .nav__item:last-child > a{
+.nav .nav__list .nav__item:last-child > a{
     margin-right: 40px;
 }
 .header__right, .header__left{

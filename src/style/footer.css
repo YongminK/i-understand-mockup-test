@@ -1,0 +1,203 @@
+.footer{
+    padding: 47px 240px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.contact__item{
+    display: inline-block;
+    margin-right: 35px;
+}
+.contact__list .contact__item:last-child{
+    margin-right: 0px;
+}
+.contact{
+    padding: 17px 0;
+    display: inline-block;
+    float: right;
+}
+.footer__nav{
+    display: inline-block;
+}
+.contact__link{
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.contact__link--fb{
+    background-image: url('../img/facebook_2x.png');
+}
+.contact__link--vk{
+    background-image: url('../img/vk-social-network-logo@2x.png');
+    color: #9E9E9E;
+    width: 32px;
+    height: 29px;
+    background-size: 100%;
+}
+.contact__link--insta{
+    background-image: url('../img/instagram_2x.png');
+}
+.footer__copyright{
+    opacity: 0.6;	
+    color: #000000;	
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;	
+    letter-spacing: 0.25px;	
+    line-height: 17px;
+    display: block;
+}
+.footer__copyright__text{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1255px){
+    .footer{
+        padding: 47px 10%;
+    }
+}
+@media screen and (max-width: 960px) and (min-width: 655px){
+    .contact__item{
+        display: block;
+        margin-bottom: 5px;
+    }
+    .contact{
+        padding: 5px;
+    }
+
+}
+@media screen and (max-width: 654px) and (min-width: 321px){
+    .footer__nav .nav__list--footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .nav__link{
+        margin-right: 16px;
+    }
+    .contact{
+        display: block;
+        float: none;
+        padding-top: 0;
+    }
+    .contact__list{
+        text-align: center;
+    }
+    .footer__copyright{
+        text-align: center;
+    }
+    .footer__copyright__text{
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (min-width:321px){
+    .footer__developby{
+        display: none;
+    }
+    .footer__payment{
+        display: none;
+    }
+}
+@media screen and (max-width: 320px){
+    .footer{
+        padding: 20px 50px 25px 50px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .footer__nav{
+        order: 0;
+    }
+    .contact{
+        order: 1;
+    }
+    .contact__item{
+        display: inline-block;
+    }
+    .contact__list{
+        display: flex;
+        justify-content: center;
+    }
+    .contact__link--fb{
+        background-image: url('../img/facebook@2x.png');
+        background-size: 55%;
+    }
+    .contact__link--vk{
+        background-image: url('../img/vk-social-network-logo@2x (color).png');
+        background-size: 95%;
+    }
+    .contact__list .contact__item:last-child{
+        margin-bottom: 15px;
+    }
+    .footer__payment{
+        order: 2;
+    }
+    .footer__payment .nav__list{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__payment .nav__link{
+        display: inline-block;
+        width: 33px;
+        height: 24px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 95%;
+    }
+    .nav__link--yadengi{
+        background-image: url('../img/yandex_dengi_product_icon_cmyk.png');
+    }
+    .nav__link--visa{
+        background-image: url('../img/visa.png');
+    }
+    .nav__link--master{
+        background-image: url('../img/mastercard.png');
+    }
+    .footer__developby{
+        order: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    .developby__text{
+        display: inline-block;
+        color: #000000;	
+        font-family: "Open Sans";	
+        font-size: 14px;	
+        letter-spacing: 0.31px;	
+        line-height: 19px;
+        margin-right: 6px;
+    }
+    .developby__logo{
+        background-image: url('../img/appvelox.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 97px;
+        height: 42px;
+        display: inline-block;
+    }
+    .footer__copyright{
+        order: 4;
+        text-align: center;
+    }
+    .footer__copyright__text{
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    
+    .nav .nav__item{
+        display: block !important;    
+    }
+    .nav__link--footer{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;        
+    }
+    .nav .nav__link{
+        margin-right: 0 !important;
+    }
+    
+
+}
