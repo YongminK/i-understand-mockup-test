@@ -320,6 +320,7 @@ body {
 
 .specialists{
     padding: 60px 425px;
+    height: auto;
 }
 .specialists__head {
     color: #000000;
