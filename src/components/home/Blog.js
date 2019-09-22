@@ -4,11 +4,13 @@ class Blog extends React.Component {
     render() {
         return (
             <section className="blog">
-                <h3 className="blog_head">Блог</h3>
-                <p className="blog__all">Все статьи</p>
+                <div className='blog__top'>
+                    <h3 className="blog__head">Блог</h3>
+                    <p className="blog__all">Все статьи</p>
+                </div>                
                 <div className="blog__block">
                     <div className="blog__block__article">
-                        <div className="article__img"></div>
+                        <div className="article__img article__img--1"></div>
                         <div className="article__desc">
                             <div className="article__head">
                                 <p>
@@ -25,7 +27,7 @@ class Blog extends React.Component {
                         </div>
                     </div>
                     <div className="blog__block__article">
-                        <div className="article__img"></div>
+                        <div className="article__img article__img--2"></div>
                         <div className="article__desc">
                             <div className="article__head">
                                 <p>
