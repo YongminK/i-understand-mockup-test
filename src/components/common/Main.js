@@ -1,18 +1,12 @@
 import React from 'react';
-import Intro from '../home/Intro';
-import Situation from '../home/Situation';
-import Work from '../home/Work';
-import Specialists from '../home/Specialists';
-import Blog from '../home/Blog';
+import Home from './Home';
+
+
 class Main extends React.Component{
     render(){
         return(
             <div>
-                <Intro/>
-                <Situation/>
-                <Work/>
-                <Specialists/>
-                <Blog/>
+                <Home/>
             </div>
         )
     }

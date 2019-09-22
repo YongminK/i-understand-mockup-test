@@ -104,7 +104,7 @@ class Specialists extends React.Component {
                             </li>
                         </ul>
                     </div>
-                    <div class="nav__dots"></div>
+                    <div className="nav__dots"></div>
                 </div>
 
             </section>
