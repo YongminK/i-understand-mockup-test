@@ -4,18 +4,20 @@ import Main from './Main';
 import Footer from './Footer';
 import '../../style/style.css';
 import '../../style/reset.css';
+import { BrowserRouter } from 'react-router-dom';
+
 
 
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header/>
-        <Main/>
-        <Footer/>
-      </div>
-        
+      <BrowserRouter>
+        <Header />
+        <Main />
+        <Footer />
+      </BrowserRouter>
+
     );
   }
 }
