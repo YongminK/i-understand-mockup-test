@@ -189,7 +189,7 @@ body {
     padding: 20px 0;
 }
 
-.nav__item--active {
+.situation__choose .nav__item--active {
     border-bottom: 3px solid #89C53D;
 }
 
@@ -211,6 +211,7 @@ body {
     height: 149px;
     display: inline-block;
     margin-right: 67px;
+    background-repeat: no-repeat;
 }
 
 .situation__description .description__desc {
@@ -591,6 +592,7 @@ body {
 
     .intro__description {
         margin: 0;
+        margin-bottom: 22px;
     }
 
     .intro__description .description__text {
@@ -602,4 +604,78 @@ body {
         line-height: 28px;
         text-align: center;
     }
+
+    .situation {
+        margin-top: 60px;
+    }
+
+    .situation__when p {
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .situation__when {
+        margin-bottom: 42px;
+    }
+
+    .situation__choose .nav__list {
+        text-align: center;
+        border-bottom: 1px solid #EAEAEA;
+        padding: 0;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        margin-left: 50px;
+    }
+    .situation__choose .nav__item--active {
+        border-bottom: none;
+        color: #1D1C1C;
+    }
+    .situation__choose .nav__item {
+        margin-right: 30px;
+    }
+
+    .situation__description {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .situation__description .description__logo {
+        margin: 0;
+        display: block;
+        margin: 0 auto 30px auto;
+        width: 80px;
+        height: 74px;
+        background-size: contain;
+    }
+
+    .situation__description .description__desc {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .situation__description .description__text {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 18px;
+    }
+
+    .description__tags__list {
+        font-size: 15px;
+        letter-spacing: 0.2px;
+        line-height: 31px;
+    }
+
+    .description__tags__item {
+        display: block;
+        padding-right:0;
+    }
+    
 }

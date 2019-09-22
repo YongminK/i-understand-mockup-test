@@ -17,7 +17,7 @@ class Intro extends React.Component {
                     </p>
                 </div>
                 <div className="intro__button">
-                    <a href="#" className="button__green">Подробнее</a>
+                    <a href="javascript:window.location.reload()" className="button__green">Подробнее</a>
                 </div>
             </section>
         )
