@@ -18,7 +18,7 @@ export default class Carousel extends React.Component {
                     <div className="specialists__name">
                         <p>Елизавета Сергеевна</p>
                     </div>
-                    <div className="specialists__description">
+                    <siv className="specialists__description">
                         <p className="specialists__description__experience">
                             Опыт работы: 25 лет
                                         </p>
@@ -28,7 +28,7 @@ export default class Carousel extends React.Component {
                         <p className="specialists__description__text">
                             Работала в поликлинике №2. Врачом стать мечтала, эта профессия нравится потому, что она нужна людям. После работы много гуляю пешком и занимаюсь спортом – врач должен быть в форме.
                                         </p>
-                    </div>
+                    </siv>
                 </div>
                 <div className="carousel__item">
                     <div className="specialists__logo">

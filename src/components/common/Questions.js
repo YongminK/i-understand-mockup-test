@@ -25,7 +25,7 @@ class Questions extends React.Component {
                 </div>
                 <div className="questions__block">
                     <div className="block__item">
-                        <div className="block__question">
+                        <div className="block__question" >
                             Как начать отвечать на платные вопросы?
                         </div>
                         <div className="block__answer">
